@@ -21,6 +21,10 @@ from OT19PsalmsText import *
 
 titleList = [
 #    'Leviticus000',
+#    'Psalm001','Psalm002','Psalm003','Psalm004','Psalm005',
+#    'Psalm006','Psalm007','Psalm008','Psalm009','Psalm010',
+#    'Psalm011','Psalm012','Psalm013','Psalm014','Psalm015',
+#    'Psalm016','Psalm017','Psalm018','Psalm019','Psalm020',
 #    'Psalm021','Psalm022','Psalm023','Psalm024','Psalm025',
 #    'Psalm026','Psalm027','Psalm028','Psalm029','Psalm030',
 #    'Psalm031','Psalm032','Psalm033','Psalm034','Psalm035',
@@ -29,8 +33,24 @@ titleList = [
 #    'Psalm046','Psalm047','Psalm048','Psalm049','Psalm050',
 #    'Psalm051','Psalm052','Psalm053','Psalm054','Psalm055',
 #    'Psalm056','Psalm057','Psalm058','Psalm059','Psalm060',
-    'Psalm061','Psalm062','Psalm063','Psalm064','Psalm065',
-    'Psalm066','Psalm067','Psalm068','Psalm069','Psalm070',
+#   'Psalm061','Psalm062','Psalm063','Psalm064','Psalm065',
+#    'Psalm066','Psalm067','Psalm068','Psalm069','Psalm070',
+#    'Psalm071','Psalm072','Psalm073','Psalm074','Psalm075',
+#    'Psalm076','Psalm077','Psalm078','Psalm079','Psalm080',
+#    'Psalm081','Psalm082','Psalm083','Psalm084','Psalm085',
+#    'Psalm086','Psalm087','Psalm088','Psalm089','Psalm090',
+#    'Psalm091','Psalm092','Psalm093','Psalm094','Psalm095',
+#    'Psalm096','Psalm097','Psalm098','Psalm099','Psalm100',
+    'Psalm101','Psalm102','Psalm103','Psalm104','Psalm105',
+    'Psalm106','Psalm107','Psalm108','Psalm109','Psalm010',
+#    'Psalm111','Psalm112','Psalm113','Psalm114','Psalm115',
+#    'Psalm116','Psalm117','Psalm118','Psalm119','Psalm120',
+#    'Psalm121', 'Psalm122','Psalm123','Psalm124','Psalm125',
+#    'Psalm126','Psalm127','Psalm128','Psalm129','Psalm130',
+#    'Psalm131', 'Psalm132','Psalm133','Psalm134','Psalm135',
+#    'Psalm136','Psalm137','Psalm138','Psalm139','Psalm140',
+#    'Psalm141','Psalm142','Psalm143','Psalm144','Psalm145',
+#    'Psalm146','Psalm147','Psalm148','Psalm149','Psalm150',
 ]
 
 
@@ -425,6 +445,46 @@ def buildWordIndex(filename, source):
 for item in titleList:
     print('\n')
     for ftype in fileType:
+        if item == 'Psalm001':
+            literal = Psalm001
+        if item == 'Psalm002':
+            literal = Psalm002
+        if item == 'Psalm003':
+            literal = Psalm003
+        if item == 'Psalm004':
+            literal = Psalm004
+        if item == 'Psalm005':
+            literal = Psalm005
+        if item == 'Psalm006':
+            literal = Psalm006
+        if item == 'Psalm007':
+            literal = Psalm007
+        if item == 'Psalm008':
+            literal = Psalm008
+        if item == 'Psalm009':
+            literal = Psalm009
+        if item == 'Psalm010':
+            literal = Psalm010
+        if item == 'Psalm011':
+            literal = Psalm011
+        if item == 'Psalm012':
+            literal = Psalm012
+        if item == 'Psalm013':
+            literal = Psalm013
+        if item == 'Psalm014':
+            literal = Psalm014
+        if item == 'Psalm015':
+            literal = Psalm015
+        if item == 'Psalm016':
+            literal = Psalm016
+        if item == 'Psalm017':
+            literal = Psalm017
+        if item == 'Psalm018':
+            literal = Psalm018
+        if item == 'Psalm019':
+            literal = Psalm019
+        if item == 'Psalm020':
+            literal = Psalm020
         if item == 'Psalm021':
             literal = Psalm021
         if item == 'Psalm022':
@@ -525,6 +585,168 @@ for item in titleList:
             literal = Psalm069
         if item == 'Psalm070':
             literal = Psalm070
+        if item == 'Psalm071':
+            literal = Psalm071
+        if item == 'Psalm072':
+            literal = Psalm072
+        if item == 'Psalm073':
+            literal = Psalm073
+        if item == 'Psalm074':
+            literal = Psalm074
+        if item == 'Psalm075':
+            literal = Psalm075
+        if item == 'Psalm076':
+            literal = Psalm076
+        if item == 'Psalm077':
+            literal = Psalm077
+        if item == 'Psalm078':
+            literal = Psalm078
+        if item == 'Psalm079':
+            literal = Psalm079
+        if item == 'Psalm080':
+            literal = Psalm080
+        if item == 'Psalm081':
+            literal = Psalm081
+        if item == 'Psalm082':
+            literal = Psalm082
+        if item == 'Psalm083':
+            literal = Psalm083
+        if item == 'Psalm084':
+            literal = Psalm084
+        if item == 'Psalm085':
+            literal = Psalm085
+        if item == 'Psalm086':
+            literal = Psalm086
+        if item == 'Psalm087':
+            literal = Psalm087
+        if item == 'Psalm088':
+            literal = Psalm088
+        if item == 'Psalm089':
+            literal = Psalm089
+        if item == 'Psalm090':
+            literal = Psalm090
+        if item == 'Psalm091':
+            literal = Psalm091
+        if item == 'Psalm092':
+            literal = Psalm092
+        if item == 'Psalm093':
+            literal = Psalm093
+        if item == 'Psalm094':
+            literal = Psalm094
+        if item == 'Psalm095':
+            literal = Psalm095
+        if item == 'Psalm096':
+            literal = Psalm096
+        if item == 'Psalm097':
+            literal = Psalm097
+        if item == 'Psalm098':
+            literal = Psalm098
+        if item == 'Psalm099':
+            literal = Psalm099
+        if item == 'Psalm100':
+            literal = Psalm100
+        if item == 'Psalm101':
+            literal = Psalm101
+        if item == 'Psalm102':
+            literal = Psalm102
+        if item == 'Psalm103':
+            literal = Psalm103
+        if item == 'Psalm1014':
+            literal = Psalm104
+        if item == 'Psalm105':
+            literal = Psalm105
+        if item == 'Psalm106':
+            literal = Psalm106
+        if item == 'Psalm107':
+            literal = Psalm107
+        if item == 'Psalm108':
+            literal = Psalm108
+        if item == 'Psalm109':
+            literal = Psalm109
+        if item == 'Psalm110':
+            literal = Psalm120
+            literal = Psalm111
+            literal = Psalm110
+        if item == 'Psalm111':
+           literal = Psalm111
+        if item == 'Psalm112':
+            literal = Psalm112
+        if item == 'Psalm113':
+            literal = Psalm113
+        if item == 'Psalm114':
+            literal = Psalm114
+        if item == 'Psalm115':
+            literal = Psalm115
+        if item == 'Psalm116':
+            literal = Psalm116
+        if item == 'Psalm117':
+            literal = Psalm117
+        if item == 'Psalm118':
+            literal = Psalm118
+        if item == 'Psalm119':
+            literal = Psalm119
+        if item == 'Psalm120':
+            literal = Psalm120
+        if item == 'Psalm121':
+            literal = Psalm121
+        if item == 'Psalm122':
+            literal = Psalm122
+        if item == 'Psalm123':
+            literal = Psalm123
+        if item == 'Psalm124':
+            literal = Psalm124
+        if item == 'Psalm125':
+            literal = Psalm125
+        if item == 'Psalm126':
+            literal = Psalm126
+        if item == 'Psalm127':
+            literal = Psalm127
+        if item == 'Psalm128':
+            literal = Psalm128
+        if item == 'Psalm129':
+            literal = Psalm129
+        if item == 'Psalm130':
+            literal = Psalm130
+        if item == 'Psalm131':
+            literal = Psalm131
+        if item == 'Psalm132':
+            literal = Psalm132
+        if item == 'Psalm133':
+            literal = Psalm133
+        if item == 'Psalm134':
+            literal = Psalm134
+        if item == 'Psalm135':
+            literal = Psalm135
+        if item == 'Psalm136':
+            literal = Psalm136
+        if item == 'Psalm137':
+            literal = Psalm137
+        if item == 'Psalm138':
+            literal = Psalm138
+        if item == 'Psalm139':
+            literal = Psalm139
+        if item == 'Psalm140':
+            literal = Psalm140
+        if item == 'Psalm0141':
+            literal = Psalm0141
+        if item == 'Psalm142':
+            literal = Psalm142
+        if item == 'Psalm143':
+            literal = Psalm143
+        if item == 'Psalm144':
+            literal = Psalm144
+        if item == 'Psalm145':
+            literal = Psalm145
+        if item == 'Psalm146':
+            literal = Psalm146
+        if item == 'Psalm147':
+            literal = Psalm147
+        if item == 'Psalm148':
+            literal = Psalm148
+        if item == 'Psalm149':
+            literal = Psalm149
+        if item == 'Psalm150':
+            literal = Psalm150
 
 
        
